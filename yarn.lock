@@ -3389,9 +3389,9 @@ neutrino-middleware-ts-loader@^2.3.1:
     source-map-loader "^0.2.1"
     ts-loader "^2.0.3"
 
-neutrino-preset-ts@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/neutrino-preset-ts/-/neutrino-preset-ts-1.5.2.tgz#3a8c67d80ea0bd697a9ba4f1a951283b5990bb6d"
+neutrino-preset-ts@^1.5.5:
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/neutrino-preset-ts/-/neutrino-preset-ts-1.5.5.tgz#f28a178eaac6f2f85d067d9e9818641a30bcd15a"
   dependencies:
     exports-loader "^0.6.4"
     imports-loader "^0.7.1"
@@ -4544,13 +4544,13 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@2, rimraf@^2.5.1, rimraf@^2.6.1:
+rimraf@2, rimraf@^2.2.8, rimraf@^2.5.1, rimraf@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz#c2338ec643df7a1b7fe5c54fa86f57428a55f33d"
   dependencies:
     glob "^7.0.5"
 
-rimraf@^2.2.8, rimraf@~2.5.1:
+rimraf@~2.5.1:
   version "2.5.4"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.5.4.tgz#96800093cbf1a0c86bd95b4625467535c29dfa04"
   dependencies:

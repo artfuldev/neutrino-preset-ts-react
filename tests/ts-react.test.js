@@ -72,7 +72,7 @@ test('preset development has hmr enabled for react', t => {
   api.use(require('..'));
   const config = api.config.toConfig();
   const regexp = new RegExp(join(api.options.root, 'node_modules[\\/]react-hot-loader[\\/]patch.js'));
-  t.is(regexp.test(config.entry.index[0], true);
+  t.is(regexp.test(config.entry.index[0]), true);
 });
 
 test('preset development has tsx extension', t => {

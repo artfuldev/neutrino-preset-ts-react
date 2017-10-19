@@ -71,7 +71,8 @@ test('preset development has hmr enabled for react', t => {
   const api = Neutrino();
   api.use(require('..'));
   const config = api.config.toConfig();
-  t.is(config.entry.index[0], join(api.options.root, 'node_modules\\react-hot-loader\\patch.js'));
+  const regexp = new RegExp(join(api.options.root, 'node_modules[\\/]react-hot-loader[\\/]patch.js'));
+  t.is(regexp.test(config.entry.index[0]), true);
 });
 
 test('preset development has tsx extension', t => {
@@ -89,5 +90,3 @@ test('preset production has tsx extension', t => {
   const config = api.config.toConfig();
   t.true(config.resolve.extensions.indexOf('.tsx') > -1);
 });
-
-
